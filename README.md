@@ -11,7 +11,7 @@ $ cd FOLDER
 $ git lfs install
 $ git lfs fetch #This gets all the objects, not only the HEAD
 $ git remote add new-repo URL-OF-NEW-REPOSITORY
-$ git push rew-repo master
+$ git push --set-upstream new-repo master
 ```
 
 The test files are Blender 2.79b windows, 64, .zip, uncompressed.
