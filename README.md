@@ -9,7 +9,7 @@ Overall the pipeline to checkout a blank repository and re-upload is:
 $ git clone URL-OF-REPOSITORY FOLDER
 $ cd FOLDER
 $ git lfs install
-$ git lfs fetch #This gets all the objects, not only the HEAD
+$ git lfs fetch --all #This gets all the objects, not only the HEAD
 $ git remote add new-repo URL-OF-NEW-REPOSITORY
 $ git push --set-upstream new-repo master
 ```
